@@ -1,0 +1,26 @@
+﻿Build started 5/12/2015 10:21:41 AM.
+     1>Project "C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Universe_Of_Khronos\Universe_Of_Khronos.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Universe_Of_Khronos\Lib/" /I"C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Universe_Of_Khronos\Lib/glfw3/Include" /I"C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Universe_Of_Khronos\Lib/glew/Include" /I"C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Universe_Of_Khronos\Lib/soil/Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Main.cpp
+         Main.cpp
+     1>c:\users\derik\documents\visual studio 2013\projects\universe_of_khronos\universe_of_khronos\headers\camera.h(98): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\derik\documents\visual studio 2013\projects\universe_of_khronos\universe_of_khronos\headers\camera.h(100): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\derik\documents\visual studio 2013\projects\universe_of_khronos\universe_of_khronos\headers\camera.h(105): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\derik\documents\visual studio 2013\projects\universe_of_khronos\universe_of_khronos\headers\inputmanager.h(34): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\derik\documents\visual studio 2013\projects\universe_of_khronos\universe_of_khronos\headers\inputmanager.h(37): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\derik\documents\visual studio 2013\projects\universe_of_khronos\universe_of_khronos\headers\inputmanager.h(40): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\derik\documents\visual studio 2013\projects\universe_of_khronos\universe_of_khronos\headers\inputmanager.h(43): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\derik\documents\visual studio 2013\projects\universe_of_khronos\universe_of_khronos\headers\mesh.h(73): warning C4244: 'argument' : conversion from 'GLuint' to 'GLfloat', possible loss of data
+     1>c:\users\derik\documents\visual studio 2013\projects\universe_of_khronos\universe_of_khronos\source\main.cpp(131): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\derik\documents\visual studio 2013\projects\universe_of_khronos\universe_of_khronos\source\main.cpp(132): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\derik\documents\visual studio 2013\projects\universe_of_khronos\universe_of_khronos\source\main.cpp(140): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\derik\documents\visual studio 2013\projects\universe_of_khronos\universe_of_khronos\source\main.cpp(141): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Debug\Universe_Of_Khronos.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Universe_Of_Khronos\Lib/glfw3/Lib" /LIBPATH:"C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Universe_Of_Khronos\Lib/glew/lib/Win32" /LIBPATH:"C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Universe_Of_Khronos\Lib/soil/Lib" /LIBPATH:"C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Universe_Of_Khronos\Lib/assimp/Lib" glfw3.lib opengl32.lib glu32.lib glew32s.lib SOIL.lib assimp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msvcrt.lib /NODEFAULTLIB:libcd.lib /NODEFAULTLIB:libcmtd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Debug\Universe_Of_Khronos.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Debug\Universe_Of_Khronos.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\WindowManager.obj
+         Universe_Of_Khronos.vcxproj -> C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Debug\Universe_Of_Khronos.exe
+     1>Done Building Project "C:\Users\Derik\documents\visual studio 2013\Projects\Universe_Of_Khronos\Universe_Of_Khronos\Universe_Of_Khronos.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.13
